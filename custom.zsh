@@ -39,11 +39,21 @@ alias lorem-ipsum="echo Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 # Start Simple Python Server
 alias simple-server="python -m SimpleHTTPServer"
 
+# Make python trigger python3
+alias python='python3'
+
+# --------------------------------------------------
+# Homebrew
+# --------------------------------------------------
+
+# Make /usr/local/bin occur before /usr/bin
+export PATH=/usr/local/bin:/usr/local/sbin:~/bin:$PATH
+
 # --------------------------------------------------
 # RVM
 # --------------------------------------------------
 
-# init rvm
+# Init RVM
 source ~/.rvm/scripts/rvm
 
 # Add RVM to PATH for scripting
@@ -53,7 +63,7 @@ PATH=$PATH:$HOME/.rvm/bin
 # AMPPS
 # --------------------------------------------------
 
-# Allows MySQL dump to work with AMPPS
+# Make MySQL dump work with AMPPS
 PATH="$PATH:/Applications/AMPPS/mysql/bin"
 
 # Make Drush use AMPPS's PHP instead of the systems
