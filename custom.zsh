@@ -39,9 +39,6 @@ alias lorem-ipsum="echo Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 # Start Simple Python Server
 alias simple-server="python -m SimpleHTTPServer"
 
-# Make python trigger python3
-alias python='python3'
-
 # --------------------------------------------------
 # Homebrew
 # --------------------------------------------------
