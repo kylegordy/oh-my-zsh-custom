@@ -47,6 +47,13 @@ alias simple-server="python -m SimpleHTTPServer"
 export PATH=/usr/local/bin:/usr/local/sbin:~/bin:$PATH
 
 # --------------------------------------------------
+# Homebrew Cask
+# --------------------------------------------------
+
+# Specify your defaults in this environment variable
+export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+
+# --------------------------------------------------
 # RVM
 # --------------------------------------------------
 
