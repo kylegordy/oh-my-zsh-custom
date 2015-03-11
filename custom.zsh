@@ -72,3 +72,9 @@ PATH="$PATH:/Applications/AMPPS/mysql/bin"
 
 # Make Drush use AMPPS's PHP instead of the systems
 export DRUSH_PHP='/Applications/AMPPS/php/bin/php'
+
+# --------------------------------------------------
+# Postgres
+# --------------------------------------------------
+
+export PATH="/Applications/Postgres.app/Contents/Versions/9.4/bin:$PATH"
