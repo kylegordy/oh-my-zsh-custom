@@ -54,16 +54,6 @@ export PATH=/usr/local/bin:/usr/local/sbin:~/bin:$PATH
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 # --------------------------------------------------
-# RVM
-# --------------------------------------------------
-
-# Init RVM
-source ~/.rvm/scripts/rvm
-
-# Add RVM to PATH for scripting
-PATH=$PATH:$HOME/.rvm/bin
-
-# --------------------------------------------------
 # AMPPS
 # --------------------------------------------------
 
@@ -78,3 +68,13 @@ export DRUSH_PHP='/Applications/AMPPS/php/bin/php'
 # --------------------------------------------------
 
 export PATH="/Applications/Postgres.app/Contents/Versions/9.4/bin:$PATH"
+
+# --------------------------------------------------
+# RVM
+# --------------------------------------------------
+
+# Init RVM
+source ~/.rvm/scripts/rvm
+
+# Add RVM to PATH for scripting
+PATH=$PATH:$HOME/.rvm/bin
